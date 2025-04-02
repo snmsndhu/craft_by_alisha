@@ -14,7 +14,7 @@ const hampers = [
     id: "sweet-birthday-delight",
     name: "Sweet Birthday Delight",
     price: "$49.99",
-    image: "/hampers/PHOTO-2025-03-09-13-49-39.jpg",
+    image: "/hampers/1.jpg",
     category: "birthday",
     description:
       "A delightful collection of sweet treats and birthday essentials perfect for celebrating special moments.",
@@ -42,7 +42,7 @@ const hampers = [
     id: "birthday-celebration-box",
     name: "Birthday Celebration Box",
     price: "$59.99",
-    image: "/hampers/PHOTO-2025-03-09-13-49-26.jpg",
+    image: "/hampers/2.jpg",
     category: "birthday",
     description:
       "A perfect celebration box filled with birthday delights and treats.",
@@ -68,7 +68,7 @@ const hampers = [
     id: "birthday-wishes-hamper",
     name: "Birthday Wishes Hamper",
     price: "$69.99",
-    image: "/hampers/PHOTO-2025-03-06-14-27-42.jpg",
+    image: "/hampers/3.jpg",
     category: "birthday",
     description: "A wonderful hamper filled with birthday wishes and treats.",
     contents: [
@@ -93,7 +93,7 @@ const hampers = [
     id: "birthday-joy-collection",
     name: "Birthday Joy Collection",
     price: "$54.99",
-    image: "/hampers/PHOTO-2025-03-06-14-27-42 4.jpg",
+    image: "/hampers/4.jpg",
     category: "birthday",
     description: "A joyful collection of birthday treats and surprises.",
     contents: [
@@ -118,7 +118,7 @@ const hampers = [
     id: "birthday-special-bundle",
     name: "Birthday Special Bundle",
     price: "$64.99",
-    image: "/hampers/PHOTO-2025-03-06-14-27-42 3.jpg",
+    image: "/hampers/5.jpg",
     category: "birthday",
     description: "A special bundle of birthday treats and party essentials.",
     contents: [
@@ -143,7 +143,7 @@ const hampers = [
     id: "birthday-treat-box",
     name: "Birthday Treat Box",
     price: "$74.99",
-    image: "/hampers/PHOTO-2025-03-06-14-27-42 2.jpg",
+    image: "/hampers/6.jpg",
     category: "birthday",
     description: "A delightful box of birthday treats and surprises.",
     contents: [
@@ -168,7 +168,7 @@ const hampers = [
     id: "birthday-magic-hamper",
     name: "Birthday Magic Hamper",
     price: "$79.99",
-    image: "/hampers/PHOTO-2025-03-06-14-27-41.jpg",
+    image: "/hampers/7.jpg",
     category: "birthday",
     description: "A magical hamper filled with birthday wonders and delights.",
     contents: [
@@ -193,7 +193,7 @@ const hampers = [
     id: "birthday-surprise-set",
     name: "Birthday Surprise Set",
     price: "$84.99",
-    image: "/hampers/PHOTO-2025-03-06-14-27-41 2.jpg",
+    image: "/hampers/8.jpg",
     category: "birthday",
     description: "A surprise-filled set perfect for birthday celebrations.",
     contents: [
@@ -218,7 +218,7 @@ const hampers = [
     id: "birthday-delight-package",
     name: "Birthday Delight Package",
     price: "$89.99",
-    image: "/hampers/PHOTO-2025-02-28-13-55-16.jpg",
+    image: "/hampers/9.jpg",
     category: "birthday",
     description: "A delightful package filled with birthday joy and treats.",
     contents: [
@@ -243,7 +243,7 @@ const hampers = [
     id: "birthday-premium-collection",
     name: "Birthday Premium Collection",
     price: "$94.99",
-    image: "/hampers/PHOTO-2025-02-28-13-55-16 4.jpg",
+    image: "/hampers/10.jpg",
     category: "birthday",
     description: "A premium collection of birthday delights and treats.",
     contents: [
@@ -269,7 +269,7 @@ const hampers = [
     id: "wedding-bliss-hamper",
     name: "Wedding Bliss Hamper",
     price: "$89.99",
-    image: "/hampers/PHOTO-2025-02-28-13-55-16 3.jpg",
+    image: "/hampers/11.jpg",
     category: "wedding",
     description:
       "A luxurious hamper perfect for celebrating the newlyweds' special day.",
@@ -295,7 +295,7 @@ const hampers = [
     id: "newlyweds-gift-set",
     name: "Newlyweds Gift Set",
     price: "$99.99",
-    image: "/hampers/PHOTO-2025-02-28-13-55-16 2.jpg",
+    image: "/hampers/12.jpg",
     category: "wedding",
     description: "A perfect gift set for the newlyweds to start their journey.",
     contents: [
@@ -320,7 +320,7 @@ const hampers = [
     id: "love-and-joy-hamper",
     name: "Love & Joy Hamper",
     price: "$109.99",
-    image: "/hampers/PHOTO-2025-01-24-13-52-26.jpg",
+    image: "/hampers/13.jpg",
     category: "wedding",
     description: "A romantic hamper filled with love and joy for the couple.",
     contents: [
@@ -345,7 +345,7 @@ const hampers = [
     id: "wedding-celebration-box",
     name: "Wedding Celebration Box",
     price: "$94.99",
-    image: "/hampers/PHOTO-2025-01-06-11-20-46.jpg",
+    image: "/hampers/14.jpg",
     category: "wedding",
     description: "A celebration box perfect for the newlyweds.",
     contents: [
@@ -370,7 +370,7 @@ const hampers = [
     id: "wedding-elegance-set",
     name: "Wedding Elegance Set",
     price: "$104.99",
-    image: "/hampers/PHOTO-2025-01-06-11-20-45.jpg",
+    image: "/hampers/15.jpg",
     category: "wedding",
     description: "An elegant set perfect for the wedding celebration.",
     contents: [
@@ -396,7 +396,7 @@ const hampers = [
     id: "executive-gift-box",
     name: "Executive Gift Box",
     price: "$79.99",
-    image: "/hampers/PHOTO-2024-09-12-17-23-41.jpg",
+    image: "/hampers/16.jpg",
     category: "corporate",
     description: "A sophisticated gift box perfect for business occasions.",
     contents: [
@@ -421,7 +421,7 @@ const hampers = [
     id: "business-delight-hamper",
     name: "Business Delight Hamper",
     price: "$89.99",
-    image: "/hampers/PHOTO-2024-09-12-17-23-41 2.jpg",
+    image: "/hampers/17.jpg",
     category: "corporate",
     description: "A delightful hamper for business associates and clients.",
     contents: [
@@ -446,7 +446,7 @@ const hampers = [
     id: "professional-gift-set",
     name: "Professional Gift Set",
     price: "$99.99",
-    image: "/hampers/PHOTO-2024-09-12-17-01-36.jpg",
+    image: "/hampers/18.jpg",
     category: "corporate",
     description: "A professional gift set perfect for business occasions.",
     contents: [
@@ -471,7 +471,7 @@ const hampers = [
     id: "corporate-excellence-box",
     name: "Corporate Excellence Box",
     price: "$84.99",
-    image: "/hampers/PHOTO-2024-09-12-17-01-35.jpg",
+    image: "/hampers/19.jpg",
     category: "corporate",
     description: "An excellence-themed box for corporate occasions.",
     contents: [
@@ -496,7 +496,7 @@ const hampers = [
     id: "business-success-hamper",
     name: "Business Success Hamper",
     price: "$94.99",
-    image: "/hampers/PHOTO-2024-09-12-17-01-34.jpg",
+    image: "/hampers/20.jpg",
     category: "corporate",
     description: "A success-themed hamper for business achievements.",
     contents: [
@@ -522,7 +522,7 @@ const hampers = [
     id: "special-moments-hamper",
     name: "Special Moments Hamper",
     price: "$69.99",
-    image: "/hampers/PHOTO-2025-03-06-14-27-42.jpg",
+    image: "/hampers/21.jpg",
     category: "special",
     description: "A thoughtful hamper for any special occasion.",
     contents: [
@@ -547,7 +547,7 @@ const hampers = [
     id: "joy-and-celebration-box",
     name: "Joy & Celebration Box",
     price: "$79.99",
-    image: "/hampers/PHOTO-2025-03-06-14-27-42 4.jpg",
+    image: "/hampers/22.jpg",
     category: "special",
     description: "A beautiful box filled with joy and celebration essentials.",
     contents: [
@@ -572,7 +572,7 @@ const hampers = [
     id: "memorable-moments-set",
     name: "Memorable Moments Set",
     price: "$89.99",
-    image: "/hampers/PHOTO-2025-03-06-14-27-42 3.jpg",
+    image: "/hampers/23.jpg",
     category: "special",
     description: "A memorable set perfect for special occasions.",
     contents: [
@@ -597,7 +597,7 @@ const hampers = [
     id: "special-occasion-delight",
     name: "Special Occasion Delight",
     price: "$74.99",
-    image: "/hampers/PHOTO-2025-03-06-14-27-42 2.jpg",
+    image: "/hampers/24.jpg",
     category: "special",
     description: "A delightful hamper for any special occasion.",
     contents: [
@@ -622,7 +622,7 @@ const hampers = [
     id: "celebration-joy-box",
     name: "Celebration Joy Box",
     price: "$84.99",
-    image: "/hampers/PHOTO-2025-03-06-14-27-41.jpg",
+    image: "/hampers/25.jpg",
     category: "special",
     description: "A joy-filled box perfect for celebrations.",
     contents: [
