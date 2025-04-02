@@ -727,7 +727,7 @@ export default function HamperPage({
             {/* Contents */}
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                What's Inside
+                What is Inside
               </h2>
               <ul className="space-y-2">
                 {hamper.contents.map((item, index) => (

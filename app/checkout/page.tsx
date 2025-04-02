@@ -214,7 +214,7 @@ export default function CheckoutPage() {
                   <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
                   <h2 className="text-2xl font-bold mb-4">Order Confirmed!</h2>
                   <p className="text-gray-600 mb-8">
-                    Thank you for your order. We'll send you a confirmation
+                    Thank you for your order. We will send you a confirmation
                     email with the details.
                   </p>
                   <button

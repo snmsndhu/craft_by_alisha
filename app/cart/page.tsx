@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Minus, Plus, Trash2 } from "lucide-react";
 import { useCartStore } from "../../store/cart";
+import Link from "next/link";
 
 const container = {
   hidden: { opacity: 0 },
@@ -34,12 +35,12 @@ export default function CartPage() {
         {items.length === 0 ? (
           <div className="text-center py-12">
             <p className="text-gray-600 mb-4">Your cart is empty</p>
-            <a
+            <Link
               href="/products"
               className="inline-block bg-pink-600 text-white px-6 py-3 rounded-full hover:bg-pink-700 transition-colors"
             >
               Continue Shopping
-            </a>
+            </Link>
           </div>
         ) : (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
