@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Star, ShoppingCart, Heart, Share2 } from "lucide-react";
+import { useCartStore } from "../../../store/cart";
 
 // In a real app, this would come from an API or database
 const product = {
@@ -50,7 +51,11 @@ Perfect for making someone's special day even more memorable.`,
   ],
 };
 
-export default function ProductDetailPage() {
+export default function ProductDetailPage({
+  params,
+}: {
+  params: { id: string };
+}) {
   return (
     <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">

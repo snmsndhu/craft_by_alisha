@@ -3,7 +3,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-
+import { Star, ShoppingCart } from "lucide-react";
+import { useCartStore } from "../../store/cart";
 import { useState } from "react";
 import { Cake, Heart, PartyPopper, Gift } from "lucide-react";
 
@@ -263,6 +264,7 @@ const item = {
 
 export default function ProductsPage() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const addItem = useCartStore((state) => state.addItem);
 
   // Combine all hampers from all categories
   const allHampers = categories.flatMap((category) =>
@@ -322,7 +324,7 @@ export default function ProductsPage() {
           animate="show"
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
         >
-          {filteredHampers.map((hamper) => (
+          {filteredHampers.map((hamper, index) => (
             <motion.div
               key={hamper.name}
               variants={item}

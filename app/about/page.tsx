@@ -109,14 +109,14 @@ export default function AboutPage() {
               occasion even more memorable with thoughtfully curated hampers.
             </p>
             <p className="text-gray-600">
-              Today, we are proud to offer a wide range of hampers for every
+              Today, we're proud to offer a wide range of hampers for every
               occasion, from birthdays and weddings to corporate events and
               special celebrations. Each hamper is carefully crafted with
               attention to detail and a personal touch.
             </p>
             <p className="text-gray-600">
               We believe that the perfect gift is one that shows how much you
-              care. That is why we go above and beyond to source the finest
+              care. That's why we go above and beyond to source the finest
               products and create beautiful presentations that will delight your
               loved ones.
             </p>
